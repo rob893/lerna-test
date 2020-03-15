@@ -1,0 +1,22 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rherber/doctor": "0.0.2",
+    "@rherber/patient": "0.0.2",
+    "@rherber/scheduler": "0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "ts-node": "^8.6.2"
+  }
+}
