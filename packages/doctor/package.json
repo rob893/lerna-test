@@ -1,0 +1,24 @@
+{
+  "name": "@rherber/doctor",
+  "version": "0.0.0",
+  "description": "lerna test",
+  "keywords": [
+    "test"
+  ],
+  "author": "Robert Herber <rwherber@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/doctor.js",
+  "typings": "lib/doctor.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
+  }
+}
